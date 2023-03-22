@@ -1,0 +1,59 @@
+.main_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #B1D9DB;
+}
+.threeD_img{
+    background-color: #B1D9DB;
+    width: 30%;
+    height: 100vh;
+}
+.form_container{
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.signUp_img {
+    position: absolute;
+    bottom: 30px;
+    left: 2%;
+    width: 460px;
+    height: 502px;
+    transform: rotate(-7deg);
+}
+.signUp_form{
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    border: none;
+    border-bottom: 1px solid #A0A0A0;
+    font-size: 16px;
+    color: #A0A0A0;
+    width: 404px;
+    padding-bottom: 5px;
+    outline: none;
+}
+.input_cont {
+    padding-bottom: 50px;
+}
+.account_btn {
+    font-size: 17px;
+    font-weight: 700px;
+    padding: 9px 0px;
+    border-radius: 9px;
+    background-color: #7CD2D7;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.account_exist_p{
+    color: #A0A0A0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
